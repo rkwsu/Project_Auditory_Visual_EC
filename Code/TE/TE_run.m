@@ -6,7 +6,7 @@ duration   = 100;
 Delay_bins = 3;
 test       = 1:2;
 
-script_folder = 'G:\For_Github_EC\Code\TE';
+script_folder = 'C:\Code\TE';
 progress_file = 'progress_positive.mat';
 
 N_required = 2;
@@ -24,8 +24,8 @@ for taskIdx = startTaskIdx:numel(tasks)
 
     task = tasks{taskIdx};
 
-    datadir = ['G:\For_Github_EC\Positive_AUD\TE1\' task '\duration' num2str(duration) 'ms\'];
-    outputdir_base = ['G:\For_Github_EC\Positive_AUD\TE2\' task '\duration' num2str(duration) 'ms\'];
+    datadir = ['C:\Positive_AUD\TE1\' task '\duration' num2str(duration) 'ms\'];
+    outputdir_base = ['C:\Positive_AUD\TE2\' task '\duration' num2str(duration) 'ms\'];
 
     tmp_root = fullfile('G:\T', sprintf('d%d', duration), ['t' lower(task(1))]);
 
