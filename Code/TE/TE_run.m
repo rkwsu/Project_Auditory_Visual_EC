@@ -4,7 +4,7 @@ clear
 tasks      = {'Stim_off','Stim_on','Resp_on'};
 duration   = 100;
 Delay_bins = 3;
-test       = 1:2;
+test       = 1:10;
 
 script_folder = 'C:\Code\TE';
 progress_file = 'progress_positive.mat';
